@@ -21,7 +21,7 @@ public class LinearLevelsConfigScreen extends Screen {
 
         // Text box for xpPerLevel
         xpBox = new EditBox(this.font,
-                centerX + 60, 20, // x,y position (same line as label, offset right)
+                centerX + 40, 20, // x,y position (same line as label, offset right)
                 80, 20,
                 Component.literal("XP per level"));
         xpBox.setValue(String.valueOf(Config.XP_PER_LEVEL.get())); // load current value
